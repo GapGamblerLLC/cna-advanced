@@ -3,7 +3,7 @@
 Tool for Creating a Nuxt.Js App That uses nuxt programatically.
 
 ```sh
-npm --verbose i -g 'github:codecomeup/cna-advanced#master'
+npm i -g 'github:codecomeup/cna-advanced#master'
 ```
 
 ```sh
@@ -22,3 +22,4 @@ Options:
   -h, --help     Print help information.                               [boolean]
   -v, --version  Print version information.                            [boolean]
 ```
+** Inspired by the og JB  and the Create Nuxt App**
