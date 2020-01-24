@@ -16,7 +16,7 @@ module.exports = {
       let title
 
       if (_$isUndefined(titlePart) ||
-          _$isNull(titlePart)) {
+          _$isNull(titlePart) || titlePart.trim() === '' ) {
         title = brandName
       } else {
         title = `${titlePart} - ${brandName}`
@@ -62,9 +62,6 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios'
-  ],
-  buildModules: [
-    '@nuxtjs/tailwindcss'
   ],
   /*
   ** Axios module configuration

@@ -53,17 +53,3 @@ $cna-grid-large-display-configuration: (
     map-get($cna-mq-types, large-display)
   }
 );
-
-.grid-container {
-  @include grid-container();
-}
-.grid-row {
-  @include grid-container();
-
-  display: flex;
-  flex-wrap: wrap;
-
-  @include grid-media($cna-grid-default-configuration, $cna-grid-mobile-configuration, $cna-grid-tablet-configuration, $cna-grid-desktop-configuration, $cna-grid-large-display-configuration) {
-    @include grid-collapse();
-  }
-}
