@@ -1,0 +1,17 @@
+{
+  "author": "Code Come Up <devs@codecomeup.com>",
+  "bin": {
+    "cna-advanced": "./src/cli-runner.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.11",
+    "objectz": "^1.0.2",
+    "sao": "^1.6.1",
+    "yargs": "^13.2.1"
+  },
+  "description": "Code Come Up Customization for creating an app that uses NuxtJS Programattically so that you can have complete control of the inner workings of your app.",
+  "devDependencies": {},
+  "name": "@codecomeup/cna-advanced",
+  "version": "0.0.0"
+}

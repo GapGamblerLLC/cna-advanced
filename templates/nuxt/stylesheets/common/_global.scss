@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+@import 'normalize.css/normalize.css';
+@import '~/stylesheets/common/_root.scss';
+@import '~/stylesheets/common/_shared.scss';
+// Universal Styles place below here that you want on every page
